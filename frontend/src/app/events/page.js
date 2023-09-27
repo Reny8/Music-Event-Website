@@ -1,7 +1,8 @@
+import styles from "../styles/page.module.css";
 export default function EventsPage() {
   return (
-    <div>
+    <section className={styles.container}>
       <h1>My Events</h1>
-    </div>
+    </section>
   )
 }

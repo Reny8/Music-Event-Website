@@ -10,6 +10,7 @@ html,
 body {
   font-family: "Poppins", sans-serif;
   line-height: 1.8;
+  background-color: #f4f4f4;
 }
 
 a {
@@ -35,7 +36,9 @@ h1 {
   border: 0;
   border-radius: 5px;
 }
-
+.btn a {
+  color: #fff;
+}
 .btn:hover {
   opacity: 0.9;
 }

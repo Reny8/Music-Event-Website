@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 13px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px -1px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+  background-color: white;
+  border-radius: 2px
+}
+.start {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+@media (max-width: 600px) {
+  .event {
+    flex-direction: column;
+    text-align: center;
+  }
+}

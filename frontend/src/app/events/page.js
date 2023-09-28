@@ -24,7 +24,7 @@ export default function EventsPage() {
   useEffect(() => {
     fetchEvents();
   }, []);
-  fetchEvents();
+  
   return (
     <section className={pageStyles.container}>
       <h1>My Events</h1>

@@ -1,20 +1,16 @@
 "use client";
 import EventItem from "@/components/EventItem";
 import pageStyles from "@/styles/page.module.css";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 export default function EventsPage() {
   const [events, setEvents] = useState([]);
 
   async function fetchEvents() {
     try {
-      const response = await fetch("http://localhost:3000/api/events").then(
-        (res) => res.json()
-      );
-      if (response) {
-        setEvents(response);
-      }
-      return response;
+      let response = await axios.get("http://localhost:3000/api/events");
+      setEvents(response.data);
     } catch (error) {
       console.error(error);
     }
@@ -24,7 +20,7 @@ export default function EventsPage() {
   useEffect(() => {
     fetchEvents();
   }, []);
-  
+
   return (
     <section className={pageStyles.container}>
       <h1>My Events</h1>

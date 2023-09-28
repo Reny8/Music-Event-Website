@@ -22,11 +22,6 @@ p {
   margin: 10px 0;
 }
 
-h1 {
-  margin-bottom: 20px;
-  text-shadow: 0.5px 0.5px 0.5px;
-}
-
 .btn {
   display: inline-block;
   background: red;

@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Throwback Thursday with DJ Manny Duke",
+      "slug": "throwback-thursday-with-dj-manny-duke",
+      "venue": "Horizon Club",
+      "address": "919 3rd Ave, New York, New York (NY), 10022",
+      "performers": "DJ Manny Duke",
+      "date": "June 09, 2023",
+      "time": "10:00 PM EST",
+      "description": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music. 90s and 2000s Hip Hop, R&B, Pop, Dance, Rock, Reggae, Reggaeton, Soca, Latin, and more.",
+      "image": "/sample/event1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Boom Dance Festival Experience",
+      "slug": "boom-dance-festival-experience",
+      "venue": "Blackjacks",
+      "address": "966 Lexington Ave, New York, New York (NY), 10021",
+      "performers": "DJ LUCK & MC NEAT, NICKY BLACKMARKET, RATPACK",
+      "date": "June 02, 2023",
+      "time": "8:00 PM EST",
+      "description": "It's looking more and more like we will be seeing events return in the summer! To celebrate this we are arranging a festival experience to say good bye to lock down! We will also be celebrating the fact Zoom Dance is one year old!",
+      "image": "/sample/event2.jpg"
+    }
+  ]
+}

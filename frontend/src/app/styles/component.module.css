@@ -15,7 +15,7 @@
   gap: 2rem;
 }
 @media (max-width: 600px) {
-  .event {
+  .card {
     flex-direction: column;
     text-align: center;
   }

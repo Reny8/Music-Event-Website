@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
-const {events} = require('../data.json')
+const { events } = require("../data.json");
 
-export function GET() {
-    const data = NextResponse.json(events)
-    return data
+export async function GET() {
+  const data = NextResponse.json(events);
+  return data;
 }
